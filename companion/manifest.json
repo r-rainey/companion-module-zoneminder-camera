@@ -1,0 +1,26 @@
+{
+	"id": "zoneminder-camera",
+	"name": "zoneminder-camera",
+	"shortname": "module-zoneminder",
+	"description": "A Module to control zoneminder cameras",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-zoneminder-camera.git",
+	"bugs": "https://github.com/bitfocus/companion-module-zoneminder-camera/issues",
+	"maintainers": [
+		{
+			"name": "Frankie Hollywood",
+			"email": "smtpchecking@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "zoneminder.com",
+	"products": ["zoneminder"],
+	"keywords": []
+}
